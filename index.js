@@ -115,6 +115,7 @@ margin-right: auto;
 display: block;
 `;
 
-document.body.appendChild(canvasElement);
+var div = document.getElementById("art");
+div.appendChild(canvasElement);
 
 runWasmArt();
